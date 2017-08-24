@@ -21,7 +21,8 @@
 			'show_in_menu'          => true,
 			'show_in_admin_bar'     => true,
 			'show_in_nav_menus'     => true,
-			'menu_icon'				=> 'dashicons-format-video'
+			'menu_icon'				=> 'dashicons-format-video',
+			'rewrite' => array('slug' => 'video'),
 		);
 		register_post_type( 'cpt_video', $args );
 
