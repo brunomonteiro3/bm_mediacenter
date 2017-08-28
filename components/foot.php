@@ -1,8 +1,14 @@
 	<!-- jQuery -->
-    <script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="<?php bloginfo('template_url'); ?>/assets/js/bootstrap.min.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="<?php bloginfo('template_url'); ?>/assets/js/bootstrap.min.js"></script>
+	
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+	</script>
 
 <?php
 	/*

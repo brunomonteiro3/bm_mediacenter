@@ -10,6 +10,6 @@
 
 	require_once locate_template('core/taxonomies/tax-products.php');
 	require_once locate_template('core/taxonomies/tax-bus.php');
-	//require_once locate_template('core/taxonomies/tax-analists.php');
+	require_once locate_template('core/taxonomies/tax-cast.php');
 	require_once locate_template('core/post-types/cpt-video.php');
 ?>

@@ -4,12 +4,12 @@
 	Create custom taxonomies to custom post type 'video'
 	**
 	*/
-	function create_tax_products() {
+	function create_tax_cast() {
 
 		// Add new taxonomy, NOT hierarchical (like tags)
 		$labels = array(
-			'name'                       => _x( 'Products', 'taxonomy general name' ),
-			'singular_name'              => _x( 'Product', 'taxonomy singular name' )
+			'name'                       => _x( 'Cast', 'taxonomy general name' ),
+			'singular_name'              => _x( 'Cast', 'taxonomy singular name' )
 		);
 
 		$args = array(
@@ -25,7 +25,7 @@
 			'show_tagcloud' 		=> false
 		);
 
-		register_taxonomy('tax_campaigns', 'cpt_ad', $args );
+		register_taxonomy('tax_cast', 'cpt_video', $args );
 	}
 
-	add_action('init', 'create_tax_products', 0);
+	add_action('init', 'create_tax_cast', 0);

@@ -40,3 +40,22 @@ footer {
 .container .card .card-body{
 	padding: 0.5rem 0 0;
 }
+
+.link{
+	text-decoration: underline;
+}
+
+.video-grid .row{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.video-grid .row .item{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}

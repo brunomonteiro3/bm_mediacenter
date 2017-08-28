@@ -1,8 +1,6 @@
 <!-- Footer -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12">
-			<p>BM Video Manager / 2017</p>
-		</div>
+<div id="footer" class="ui-footer">
+	<div class="container">
+		2017 &copy; BM Video Manager
 	</div>
 </div>
